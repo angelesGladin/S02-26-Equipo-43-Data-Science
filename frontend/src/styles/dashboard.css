@@ -1,0 +1,63 @@
+/* === Dashboard layout === */
+.dashboard-container{
+  padding: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background: #f4f6f9;
+  min-height: calc(100vh - 60px);
+}
+
+.dashboard-title{
+  font-size: 26px;
+  font-weight: 700;
+  margin: 6px 0 18px;
+  color: #111827;
+}
+
+/* Cards grid */
+.kpi-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+/* KPI Card */
+.kpi-card{
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+}
+
+.kpi-title{
+  font-size: 13px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.kpi-value{
+  margin-top: 10px;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #111827;
+}
+
+.kpi-value.green{ color: #16a34a; }
+.kpi-value.blue{ color: #2563eb; }
+.kpi-value.orange{ color: #f59e0b; }
+.kpi-value.red{ color: #dc2626; }
+
+/* Alert box */
+.alert-box{
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-left: 6px solid #f59e0b;
+  border-radius: 12px;
+  color: #7c2d12;
+  font-weight: 600;
+}
