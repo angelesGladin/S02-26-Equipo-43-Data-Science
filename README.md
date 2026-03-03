@@ -7,6 +7,7 @@ https://datamark-app.vercel.app
 https://datamark-api.onrender.com
 
 ---
+## 📜 Licencia
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Backend](https://img.shields.io/badge/backend-Node.js_+_Express-green)
@@ -240,12 +241,6 @@ https://github.com/No-Country-simulation/S02-26-Equipo-43-Data-Science/blob/main
 | Backend Developer | API REST + Prisma |
 | Frontend Developer | React + Dashboard |
 | Data Science | Modelo Predictivo (Iteración futura) |
-
----
-
-## 📜 Licencia
-
-MIT License
 
 ---
 
